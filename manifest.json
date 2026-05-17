@@ -1,19 +1,19 @@
 {
   "name": "Was Droog Adviseur",
   "short_name": "WasDroog",
-  "start_url": "/wasdrogen/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f0f4f8",
   "theme_color": "#2196F3",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/wasdrogen/favicon.svg",
+      "src": "./favicon.svg",
       "type": "image/svg+xml",
       "sizes": "192x192"
     },
     {
-      "src": "/wasdrogen/favicon.svg",
+      "src": "./favicon.svg",
       "type": "image/svg+xml",
       "sizes": "512x512"
     }
