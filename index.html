@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Was Droog Adviseur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Was Droog Adviseur</h1>
+            <p id="date-string"></p>
+        </header>
+
+        <main>
+            <div id="status-card" class="card loading">
+				<div class="loader"></div>
+				<p id="status-text">Locatie bepalen... </p>
+				<p id="location-coords" style="font-size: 0.8rem; margin-top: 10px; opacity: 0.8;"></p>
+			</div>
+
+            <div id="weather-details" class="details-grid hidden">
+                <div class="detail-item">
+                    <span class="label">Temperatuur</span>
+                    <span id="temp-val" class="value">--°C</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Luchtvochtigheid</span>
+                    <span id="humidity-val" class="value">--%</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Windsnelheid</span>
+                    <span id="wind-val" class="value">-- km/u</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Regenkans</span>
+                    <span id="rain-val" class="value">--%</span>
+                </div>
+            </div>
+
+            <button id="refresh-btn" class="hidden">Check Opnieuw</button>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

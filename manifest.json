@@ -1,0 +1,21 @@
+{
+  "name": "Was Droog Adviseur",
+  "short_name": "WasDroog",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f0f4f8",
+  "theme_color": "#2196F3",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192/2196F3/ffffff?text=WAS",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://via.placeholder.com/512/2196F3/ffffff?text=WAS",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
